@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- dimens for activity_main.xml-->
+
+    <dimen name="activity_main_folder_list_width">0dp</dimen>
+    <dimen name="activity_main_folder_list_height">0dp</dimen>
+    <dimen name="activity_main_default_layout_margin">8dp</dimen>
+
+    <!-- dimens for add_new_entry_layout.xml-->
+
+    <dimen name="add_new_entry_default_layout_margin">8dp</dimen>
+    <dimen name="edit_layout_width">0dp</dimen>
+    <dimen name="edit_layout_height">40dp</dimen>
+    <dimen name="default_text_size_edit_text">17sp</dimen>
+    <dimen name="default_text_size_check_box_text">15sp</dimen>
+    <dimen name="default_checkbox_layout_width">0dp</dimen>
+    <dimen name="add_new_entry_default_button_layout_width">160dp</dimen>
+    <dimen name="add_new_entry_default_list_of_images_width">0dp</dimen>
+    <dimen name="add_new_entry_default_list_of_images_height">0dp</dimen>
+
+    <!-- dimens for fingerprint_layout.xml-->
+
+    <dimen name="default_text_size_fingerprint_entry">15sp</dimen>
+    <dimen name="fingerprint_layout_default_text_margin">8dp</dimen>
+    <dimen name="fingerprint_layout_info_text_margin_bottom">32dp</dimen>
+    <dimen name="fingerprint_layout_image_of_fingerprint_default_layout_size">100dp</dimen>
+    <dimen name="fingerprint_layout_image_of_fingerprint_default_margin">8dp</dimen>
+    <dimen name="fingerprint_layout_image_of_fingerprint_margin_bottom">64dp</dimen>
+    <dimen name="fingerprint_layout_message_display_margin_bottom">60dp</dimen>
+
+    <!-- dimens for folder_layout.xml-->
+
+    <dimen name="folder_layout_folder_list_layout_layout_width">289dp</dimen>
+    <dimen name="folder_layout_folder_list_layout_layout_height">0dp</dimen>
+    <dimen name="folder_layout_folder_list_layout_layout_marginStart">60dp</dimen>
+    <dimen name="folder_layout_folder_list_layout_layout_marginTop">16dp</dimen>
+    <dimen name="folder_layout_folder_list_layout_layout_marginEnd">60dp</dimen>
+    <dimen name="folder_layout_folder_list_layout_layout_marginBottom">16dp</dimen>
+    <dimen name="folder_layout_folder_list_layout_layout_constraintHeight_max">300dp</dimen>
+    <dimen name="folder_layout_folder_text_layout_width">0dp</dimen>
+    <dimen name="folder_layout_folder_text_marginStart">40dp</dimen>
+    <dimen name="folder_layout_folder_text_marginTop">16dp</dimen>
+    <dimen name="folder_layout_folder_text_marginEnd">40dp</dimen>
+    <dimen name="folder_layout_folder_text_marginBottom">16dp</dimen>
+    <dimen name="folder_layout_folder_text_textSize">15sp</dimen>
+
+    <!-- dimens for image_viewer_layout.xml-->
+
+    <dimen name="image_viewer_image_layout_width">0dp</dimen>
+    <dimen name="image_viewer_image_layout_height">0dp</dimen>
+    <dimen name="image_viewer_image_layout_default_margin">8dp</dimen>
+
+    <!-- dimens for main_list_item_element_layout.xml-->
+
+    <dimen name="main_list_item_element_layout_entry_name_layout_width">0dp</dimen>
+    <dimen name="main_list_item_element_layout_entry_name_layout_height">28dp</dimen>
+    <dimen name="main_list_item_element_layout_entry_name_layout_marginStart">4dp</dimen>
+    <dimen name="main_list_item_element_layout_entry_name_layout_marginTop">3dp</dimen>
+    <dimen name="main_list_item_element_layout_entry_name_text_size">20sp</dimen>
+
+    <dimen name="main_list_item_element_layout_lecture_layout_height">20dp</dimen>
+    <dimen name="main_list_item_element_layout_lecture_layout_marginStart">4dp</dimen>
+    <dimen name="main_list_item_element_layout_lecture_layout_marginTop">4dp</dimen>
+    <dimen name="main_list_item_element_layout_lecture_layout_marginBottom">4dp</dimen>
+
+    <dimen name="main_list_item_element_layout_date_layout_width">0dp</dimen>
+    <dimen name="main_list_item_element_layout_date_layout_marginTop">30dp</dimen>
+    <dimen name="main_list_item_element_layout_date_layout_marginEnd">8dp</dimen>
+
+    <dimen name="main_list_item_element_layout_image_layout_width">80dp</dimen>
+    <dimen name="main_list_item_element_layout_image_layout_height">80dp</dimen>
+    <dimen name="main_list_item_element_layout_image_layout_marginTop">1dp</dimen>
+    <dimen name="main_list_item_element_layout_image_layout_marginStart">1dp</dimen>
+    <dimen name="main_list_item_element_layout_image_layout_marginBottom">0dp</dimen>
+
+    <dimen name="main_list_item_element_layout_document_type_layout_marginStart">4dp</dimen>
+    <dimen name="main_list_item_element_layout_document_type_layout_marginTop">4dp</dimen>
+    <dimen name="main_list_item_element_layout_custom_layout_marginEnd">8dp</dimen>
+    <dimen name="main_list_item_element_layout_lecture_layout_width">0dp</dimen>
+
+
+    <!-- dimens for pictures_list_layout.xml-->
+
+    <dimen name="pictures_list_layout_padding">15dp</dimen>
+
+
+    <!-- dimens for button / list / editText layout files in the drawable directory -->
+
+    <dimen name="custom_layout_padding">2dp</dimen>
+    <dimen name="custom_layout_stroke_width">3dp</dimen>
+    <dimen name="custom_layout_stroke_edit_text_width">2dp</dimen>
+    <dimen name="custom_layout_corner_radius">5dp</dimen>
+
+    <!-- dimens for app_settings.xml -->
+
+    <dimen name="switch_custom_margin_Start">16dp</dimen>
+    <dimen name="switch_custom_margin_Top">30dp</dimen>
+    <dimen name="switch_label_custom_margin_Start">17dp</dimen>
+    <dimen name="switch_label_custom_margin_Top">30dp</dimen>
+    <dimen name="switch_label_custom_text_size">18sp</dimen>
+    <dimen name="settings_fingerprint_usage_text_layout_width">0dp</dimen>
+    <dimen name="settings_fingerprint_usage_text_layout_marginEnd">8dp</dimen>
+
+</resources>

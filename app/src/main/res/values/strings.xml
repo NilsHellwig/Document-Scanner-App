@@ -1,0 +1,50 @@
+<resources>
+    <!-- Custom Strings-->
+
+    <string name="app_name">UniHub</string>
+    <string name="add_new_entry">AddNewEntry</string>
+
+    <!-- Strings for add_new_entry_layout.xml-->
+    <string name="name_of_document_label">NAME DES DOKUMENTS</string>
+    <string name="name_of_event_label">NAME DER VERANSTALTUNG (OPTIONAL)</string>
+    <string name="date_label">DATUM</string>
+    <string name="entry_warning_label">...</string>
+    <string name="check_box_form">Formular</string>
+    <string name="check_box_print_media">Printmedien</string>
+    <string name="check_box_notes">Mitschrift</string>
+    <string name="button_gallery">GALLERIE</string>
+    <string name="button_take_a_picture">FOTO AUFNEHMEN</string>
+    <string name="button_add_entry">ERSTELLEN</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="ok">OK</string>
+
+    <!-- Strings for fingerprint_layout.xml-->
+
+    <string name="fingerprint_app_name">Fingerprint Authentication</string>
+    <string name="fingerprint_instructions">Zum Entsperren den Fingerabdrucksensor berühren</string>
+    <string name="image_of_fingerprint_description">Image of a fingerpint sensor</string>
+
+    <!-- Strings for folder_layout.xml-->
+
+    <string name="folder_welcome_text">Bitte wählen Sie ein Bild...</string>
+
+    <!-- Strings for image_viewer_layout.xml-->
+
+    <string name="image_viewer_image_view_description">This ImageView shows an image selected by the user</string>
+
+    <!-- Strings for main_list_item_element_layout.xml-->
+
+    <string name="main_list_item_element_layout_image_view_desicription">This ImageView shows an image selected by the user in the activity_main.xml list-item</string>
+
+    <!-- Strings for Actionbar (menu) layout files -->
+
+    <string name="done_action_bar_button_title">Fertig</string>
+    <string name="share_action_bar_button_title">Teilen</string>
+    <string name="add_document_action_bar_button_title">Neuer Eintrag</string>
+    <string name="settings_action_bar_button_title">Einstellungen</string>
+
+    <!-- Strings for app_settings.xml -->
+
+    <string name="fingerprint_switch_name">Fingerabdrucksensor verwenden</string>
+
+</resources>

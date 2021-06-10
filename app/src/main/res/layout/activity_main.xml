@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/folder_list"
+        android:layout_width="@dimen/activity_main_folder_list_width"
+        android:layout_height="@dimen/activity_main_folder_list_height"
+        android:layout_marginStart="@dimen/activity_main_default_layout_margin"
+        android:layout_marginTop="@dimen/activity_main_default_layout_margin"
+        android:layout_marginEnd="@dimen/activity_main_default_layout_margin"
+        android:layout_marginBottom="@dimen/activity_main_default_layout_margin"
+        android:background="@drawable/grey_list_item_design"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

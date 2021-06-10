@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Switch
+        android:id="@+id/fingerprint_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/switch_custom_margin_Start"
+        android:layout_marginTop="@dimen/switch_custom_margin_Top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fingerprint_switch_label"
+        android:layout_width="@dimen/settings_fingerprint_usage_text_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/switch_label_custom_margin_Start"
+        android:layout_marginTop="@dimen/switch_label_custom_margin_Top"
+        android:layout_marginEnd="@dimen/settings_fingerprint_usage_text_layout_marginEnd"
+        android:fontFamily="@font/manrope_extrabold"
+        android:gravity="start"
+        android:text="@string/fingerprint_switch_name"
+        android:textColor="@color/custom_dark_grey_color"
+        android:textSize="@dimen/switch_label_custom_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fingerprint_switch"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

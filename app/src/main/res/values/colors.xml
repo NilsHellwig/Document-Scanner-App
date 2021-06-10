@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="custom_dark_green_color">#20793B</color>
+    <color name="custom_light_green_color">#32DC79</color>
+    <color name="custom_super_light_green_color">#63eb9b</color>
+    <color name="custom_regular_grey_color">#B8B8B8</color>
+    <color name="custom_light_grey_color">#A3A3A3</color>
+    <color name="custom_super_light_grey_color">#E6E6E6</color>
+    <color name="custom_white_color">#FFFFFF</color>
+    <color name="custom_dark_grey_color">#5C5C5C</color>
+    <color name="custom_grey_for_pressed_button">#FF797878</color>
+    <color name="custom_dark_red_color">#850005</color>
+    <color name="custom_light_red_color">#F06B6F</color>
+    <color name="grey_list_item_stroke_color">#828282</color>
+
+</resources>

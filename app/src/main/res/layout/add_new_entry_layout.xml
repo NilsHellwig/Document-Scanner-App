@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/name_of_document_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="@dimen/add_new_entry_default_layout_margin"
+        android:layout_marginEnd="@dimen/add_new_entry_default_layout_margin"
+        android:fontFamily="@font/manrope_extrabold"
+        android:text="@string/name_of_document_label"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <EditText
+        android:id="@+id/name_of_document_edit"
+        android:layout_width="@dimen/edit_layout_width"
+        android:layout_height="@dimen/edit_layout_height"
+        android:layout_marginStart="@dimen/add_new_entry_default_layout_margin"
+        android:layout_marginLeft="@dimen/add_new_entry_default_layout_margin"
+        android:layout_marginEnd="@dimen/add_new_entry_default_layout_margin"
+        android:layout_marginRight="@dimen/add_new_entry_default_layout_margin"
+        android:background="@drawable/edit_text_layout"
+        android:ems="10"
+        android:fontFamily="@font/manrope_bold"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textColor="@color/custom_dark_red_color"
+        android:textSize="@dimen/default_text_size_edit_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_of_document_label" />
+
+    <TextView
+        android:id="@+id/name_of_event_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/add_new_entry_default_layout_margin"
+        android:layout_marginLeft="@dimen/add_new_entry_default_layout_margin"
+        android:layout_marginEnd="@dimen/add_new_entry_default_layout_margin"
+        android:layout_marginRight="@dimen/add_new_entry_default_layout_margin"
+        android:fontFamily="@font/manrope_extrabold"
+        android:text="@string/name_of_event_label"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_of_document_edit" />
+
+    <EditText
+        android:id="@+id/name_of_event_edit"
+        android:layout_width="@dimen/edit_layout_width"
+        android:layout_height="@dimen/edit_layout_height"
+        android:layout_marginStart="@dimen/add_new_entry_default_layout_margin"
+        android:layout_marginLeft="@dimen/add_new_entry_default_layout_margin"
+        android:layout_marginEnd="@dimen/add_new_entry_default_layout_margin"
+        android:layout_marginRight="@dimen/add_new_entry_default_layout_margin"
+        android:background="@drawable/edit_text_layout"
+        android:ems="10"
+        android:fontFamily="@font/manrope_bold"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textColor="@color/custom_dark_red_color"
+        android:textSize="@dimen/default_text_size_edit_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_of_event_label" />
+
+    <TextView
+        android:id="@+id/date_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/add_new_entry_default_layout_margin"
+        android:layout_marginEnd="@dimen/add_new_entry_default_layout_margin"
+        android:fontFamily="@font/manrope_extrabold"
+        android:text="@string/date_label"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_of_event_edit" />
+
+    <EditText
+        android:id="@+id/date_edit"
+        android:layout_width="@dimen/edit_layout_width"
+        android:layout_height="@dimen/edit_layout_height"
+        android:layout_marginStart="@dimen/add_new_entry_default_layout_margin"
+        android:layout_marginEnd="@dimen/add_new_entry_default_layout_margin"
+        android:background="@drawable/edit_text_layout"
+        android:ems="10"
+        android:fontFamily="@font/manrope_bold"
+        android:gravity="center"
+        android:inputType="date"
+        android:textColor="@color/custom_dark_red_color"
+        android:textSize="@dimen/default_text_size_edit_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date_label" />
+
+    <CheckBox
+        android:id="@+id/check_box_form"
+        android:layout_width="@dimen/default_checkbox_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/add_new_entry_default_layout_margin"
+        android:layout_marginTop="@dimen/add_new_entry_default_layout_margin"
+        android:buttonTint="@color/custom_light_green_color"
+        android:fontFamily="@font/manrope_extrabold"
+        android:text="@string/check_box_form"
+        android:textColor="@color/custom_dark_grey_color"
+        android:textSize="@dimen/default_text_size_check_box_text"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date_edit" />
+
+    <CheckBox
+        android:id="@+id/check_box_print_media"
+        android:layout_width="@dimen/default_checkbox_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/add_new_entry_default_layout_margin"
+        android:layout_marginTop="@dimen/add_new_entry_default_layout_margin"
+        android:buttonTint="@color/custom_light_green_color"
+        android:fontFamily="@font/manrope_extrabold"
+        android:text="@string/check_box_print_media"
+        android:textColor="@color/custom_dark_grey_color"
+        android:textSize="@dimen/default_text_size_check_box_text"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/check_box_form" />
+
+    <CheckBox
+        android:id="@+id/check_box_notes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/add_new_entry_default_layout_margin"
+        android:layout_marginTop="@dimen/add_new_entry_default_layout_margin"
+        android:buttonTint="@color/custom_light_green_color"
+        android:fontFamily="@font/manrope_extrabold"
+        android:text="@string/check_box_notes"
+        android:textColor="@color/custom_dark_grey_color"
+        android:textSize="@dimen/default_text_size_check_box_text"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/check_box_print_media" />
+
+    <Button
+        android:id="@+id/button_gallery"
+        android:layout_width="@dimen/add_new_entry_default_button_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/add_new_entry_default_layout_margin"
+        android:layout_marginEnd="@dimen/add_new_entry_default_layout_margin"
+        android:background="@drawable/green_button_settings"
+        android:fontFamily="@font/manrope_extrabold"
+        android:text="@string/button_gallery"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_take_a_picture" />
+
+    <Button
+        android:id="@+id/button_take_a_picture"
+        android:layout_width="@dimen/add_new_entry_default_button_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/add_new_entry_default_layout_margin"
+        android:layout_marginEnd="@dimen/add_new_entry_default_layout_margin"
+        android:background="@drawable/green_button_settings"
+        android:fontFamily="@font/manrope_extrabold"
+        android:text="@string/button_take_a_picture"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date_edit" />
+
+    <ListView
+        android:id="@+id/list_of_images"
+        android:layout_width="@dimen/add_new_entry_default_list_of_images_width"
+        android:layout_height="@dimen/add_new_entry_default_list_of_images_height"
+        android:layout_marginStart="@dimen/add_new_entry_default_layout_margin"
+        android:layout_marginTop="@dimen/add_new_entry_default_layout_margin"
+        android:layout_marginEnd="@dimen/add_new_entry_default_layout_margin"
+        android:layout_marginBottom="@dimen/add_new_entry_default_layout_margin"
+        android:background="@drawable/grey_small_list_item_design"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_max="wrap"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/check_box_notes" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/folder_list"
+        android:layout_width="@dimen/folder_layout_folder_list_layout_layout_width"
+        android:layout_height="@dimen/folder_layout_folder_list_layout_layout_height"
+        android:layout_marginStart="@dimen/folder_layout_folder_list_layout_layout_marginStart"
+        android:layout_marginTop="@dimen/folder_layout_folder_list_layout_layout_marginTop"
+        android:layout_marginEnd="@dimen/folder_layout_folder_list_layout_layout_marginEnd"
+        android:layout_marginBottom="@dimen/folder_layout_folder_list_layout_layout_marginBottom"
+        android:background="@drawable/grey_small_list_item_design"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_max="@dimen/folder_layout_folder_list_layout_layout_constraintHeight_max"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/folder_text" />
+
+    <TextView
+        android:id="@+id/folder_text"
+        android:layout_width="@dimen/folder_layout_folder_text_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/folder_layout_folder_text_marginStart"
+        android:layout_marginTop="@dimen/folder_layout_folder_text_marginTop"
+        android:layout_marginEnd="@dimen/folder_layout_folder_text_marginEnd"
+        android:layout_marginBottom="@dimen/folder_layout_folder_text_marginBottom"
+        android:gravity="center"
+        android:text="@string/folder_welcome_text"
+        android:textSize="@dimen/folder_layout_folder_text_textSize"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/folder_list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

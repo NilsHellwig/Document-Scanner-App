@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--This XML-File is for the font-family called Manrope: Source:https://github.com/sharanda/manrope/blob/master/documentation/manrope.pdf-->
+    <font
+        android:font="@font/manrope_light"
+        android:fontStyle="normal"
+        android:fontWeight="400" />
+    <font
+        android:font="@font/manrope_bold"
+        android:fontStyle="normal"
+        android:fontWeight="400" />
+    <font
+        android:font="@font/manrope_extrabold"
+        android:fontStyle="normal"
+        android:fontWeight="400" />
+    <font
+        android:font="@font/manrope_regular"
+        android:fontStyle="normal"
+        android:fontWeight="400" />
+</font-family>

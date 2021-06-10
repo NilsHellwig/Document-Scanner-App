@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/infoForFingerprintRegistration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/fingerprint_layout_default_text_margin"
+        android:layout_marginEnd="@dimen/fingerprint_layout_default_text_margin"
+        android:layout_marginBottom="@dimen/fingerprint_layout_info_text_margin_bottom"
+        android:fontFamily="@font/manrope_bold"
+        android:gravity="center"
+        android:text="@string/fingerprint_instructions"
+        android:textColor="@color/custom_dark_red_color"
+        android:textSize="@dimen/default_text_size_fingerprint_entry"
+        app:layout_constraintBottom_toTopOf="@+id/imageOfFingerprint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/error_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/fingerprint_layout_default_text_margin"
+        android:layout_marginEnd="@dimen/fingerprint_layout_default_text_margin"
+        android:layout_marginBottom="@dimen/fingerprint_layout_message_display_margin_bottom"
+        android:fontFamily="@font/manrope_light"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/custom_dark_grey_color"
+        android:textSize="@dimen/default_text_size_fingerprint_entry"
+        app:layout_constraintBottom_toTopOf="@+id/infoForFingerprintRegistration"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageOfFingerprint"
+        android:layout_width="@dimen/fingerprint_layout_image_of_fingerprint_default_layout_size"
+        android:layout_height="@dimen/fingerprint_layout_image_of_fingerprint_default_layout_size"
+        android:layout_marginStart="@dimen/fingerprint_layout_image_of_fingerprint_default_margin"
+        android:layout_marginEnd="@dimen/fingerprint_layout_image_of_fingerprint_default_margin"
+        android:layout_marginBottom="@dimen/fingerprint_layout_image_of_fingerprint_margin_bottom"
+        android:contentDescription="@string/image_of_fingerprint_description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fingerprint_icon" />
+
+</android.support.constraint.ConstraintLayout>

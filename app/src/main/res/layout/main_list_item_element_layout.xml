@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/list_entry_name_view"
+        android:layout_width="@dimen/main_list_item_element_layout_entry_name_layout_width"
+        android:layout_height="@dimen/main_list_item_element_layout_entry_name_layout_height"
+        android:layout_marginStart="@dimen/main_list_item_element_layout_entry_name_layout_marginStart"
+        android:layout_marginTop="@dimen/main_list_item_element_layout_entry_name_layout_marginTop"
+        android:layout_marginEnd="@dimen/main_list_item_element_layout_custom_layout_marginEnd"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:fontFamily="@font/manrope_light"
+        android:textColor="@color/custom_dark_grey_color"
+        android:textSize="@dimen/main_list_item_element_layout_entry_name_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/list_entry_image_view"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/list_entry_lecture_view"
+        android:layout_width="@dimen/main_list_item_element_layout_lecture_layout_width"
+        android:layout_height="@dimen/main_list_item_element_layout_lecture_layout_height"
+        android:layout_marginStart="@dimen/main_list_item_element_layout_lecture_layout_marginStart"
+        android:layout_marginTop="@dimen/main_list_item_element_layout_lecture_layout_marginTop"
+        android:layout_marginEnd="@dimen/main_list_item_element_layout_custom_layout_marginEnd"
+        android:ellipsize="end"
+        android:fontFamily="@font/manrope_bold"
+        android:maxLines="1"
+        android:textColor="@color/custom_dark_grey_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/list_entry_image_view"
+        app:layout_constraintTop_toBottomOf="@+id/document_type" />
+
+    <TextView
+        android:id="@+id/list_entry_date_view"
+        android:layout_width="@dimen/main_list_item_element_layout_date_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/main_list_item_element_layout_date_layout_marginTop"
+        android:layout_marginEnd="@dimen/main_list_item_element_layout_date_layout_marginEnd"
+        android:fontFamily="@font/manrope_bold"
+        android:textColor="@color/custom_dark_grey_color"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/list_entry_image_view"
+        android:layout_width="@dimen/main_list_item_element_layout_image_layout_width"
+        android:layout_height="@dimen/main_list_item_element_layout_image_layout_height"
+        android:layout_marginStart="@dimen/main_list_item_element_layout_image_layout_marginStart"
+        android:layout_marginTop="@dimen/main_list_item_element_layout_image_layout_marginTop"
+        android:layout_marginBottom="@dimen/main_list_item_element_layout_image_layout_marginBottom"
+        android:contentDescription="@string/main_list_item_element_layout_image_view_desicription"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/list_entry_name_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/document_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/main_list_item_element_layout_document_type_layout_marginStart"
+        android:layout_marginTop="@dimen/main_list_item_element_layout_document_type_layout_marginTop"
+        android:fontFamily="@font/manrope_extrabold"
+        android:textColor="@color/custom_dark_red_color"
+        app:layout_constraintStart_toEndOf="@+id/list_entry_image_view"
+        app:layout_constraintTop_toBottomOf="@+id/list_entry_name_view" />
+
+</android.support.constraint.ConstraintLayout>
