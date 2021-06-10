@@ -1,2 +1,2 @@
-# Document-Scanner-App
+# Document-Scanner App
 A document scanner for Android.
