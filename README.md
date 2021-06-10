@@ -1,7 +1,7 @@
 # Document-Scanner App
 A document scanner for Android.
 
-# Preview
+## Preview
 
 <br>
 <br>
